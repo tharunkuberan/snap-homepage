@@ -1,0 +1,177 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+.snap__nav {
+    display: flex;
+    justify-content:space-between;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+.nav__prop {
+    margin-right: 30px;
+    color:  hsl(0, 0%, 41%);
+    border: 0px solid #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 14px 16px;
+    
+}
+.nav__prop:hover {
+    cursor: pointer;
+}
+.snap__header {
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 50px;
+}
+.snap__button {
+    margin-left: 30px;
+}
+.snap__login-register-button {
+    display: flex;
+    align-items: center;
+}
+.login {
+    border: 0px solid #fff;
+    background-color: transparent;
+}
+.login:hover {
+    cursor: pointer;
+}
+.register {
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+.register:hover {
+    cursor: pointer;
+}
+.snap__info {
+    width: 60%;
+}
+.snap__learn {
+    width: 20%;
+    margin-top: 54px;
+    margin-bottom: 70px;
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    background-color: black;
+    color:#fff;
+}
+.snap__learn:hover { 
+    background-color: #fff;
+    color:black;
+    cursor: pointer;
+}
+.snap__remote {
+    font-size: 70px;
+    margin-bottom: 54px;
+}
+.snap__parent {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+}
+.snap__img {
+    width: 100%;
+}
+.client__img {
+    width: 96px;
+    margin-right: 20px;
+}
+.snap__hero {
+    width: 32%;
+}
+.snap__para {
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    line-height: 1.6;
+}
+.client__allimg {
+    display: flex;
+    align-items: center;
+}
+.company__features {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.snap__logo {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(0, 0%, 8%);
+    margin-right: 18px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 16px 12px;
+    border-radius: 12px;
+}
+.dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: inherit;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.dropbtn__arrow {
+    margin-left: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content  a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content__icon {
+    margin-right: 10px;
+}
+.dropdown__comapny {
+    display: none;
+    position:absolute; 
+    padding: 12px;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+.dropdown__second {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: inherit;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.dropdown__com:hover .dropdown__comapny {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.dropdown__comapny a {
+    text-decoration: none;
+    padding: 12px 16px;
+    color: black;
+}
